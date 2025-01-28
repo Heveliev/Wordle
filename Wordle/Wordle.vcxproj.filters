@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\validation">
+      <UniqueIdentifier>{09d32451-8448-42d4-92ba-c79b6716940a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic">
+      <UniqueIdentifier>{3ba1f3f8-9f85-4d10-b974-09521f5c8d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file_operations">
+      <UniqueIdentifier>{015c8c31-06f6-400e-a5d8-e7bf4584b634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\validation">
+      <UniqueIdentifier>{e1a254ec-7a05-4069-a4a5-13f88a3d1af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic">
+      <UniqueIdentifier>{96e5536a-ca02-45e5-b7e1-80ce27f2adc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file_operations">
+      <UniqueIdentifier>{f88cc236-5da5-4518-b743-fda70164bd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data">
+      <UniqueIdentifier>{67694f02-c80c-4efb-80d3-038c655a502f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\time">
+      <UniqueIdentifier>{2a3fbe98-2f8b-49fd-b0a5-4ae0b80a5346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\time">
+      <UniqueIdentifier>{05ec2033-9602-4182-8b60-f2b6c25ee762}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Wordle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\todo.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\code_style.md">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\README.md">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\words.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
