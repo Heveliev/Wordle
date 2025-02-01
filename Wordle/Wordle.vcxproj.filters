@@ -40,15 +40,321 @@
     <Filter Include="Header Files\time">
       <UniqueIdentifier>{05ec2033-9602-4182-8b60-f2b6c25ee762}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\validation\process_traking">
+      <UniqueIdentifier>{c59f0152-d862-4012-8728-278286ebb7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\validation\process_traking">
+      <UniqueIdentifier>{acae879f-ca69-4bec-bc87-6314d3bb5f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\get_random_index">
+      <UniqueIdentifier>{f2f3981b-1db9-483b-9499-9b0cd36a7629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\get_random_index">
+      <UniqueIdentifier>{991558d2-e878-4c5a-8e64-0d7313746771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\get_random_word">
+      <UniqueIdentifier>{aad8b1ef-8062-4559-b733-4c4b9240f548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\get_random_word">
+      <UniqueIdentifier>{2784b358-cf05-4db2-940e-538d690cc212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\validation\pick_mode">
+      <UniqueIdentifier>{fee93506-a17d-49a7-885d-9428e21c243d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\validation\pick_mode">
+      <UniqueIdentifier>{7169a527-86d4-4e6d-868e-2f1c5b8f824d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\append_word">
+      <UniqueIdentifier>{3bf8ba9a-4d99-47be-9e29-44893ff1ca45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\append_word">
+      <UniqueIdentifier>{3ab14a75-d5cf-4777-96b7-581ee44ecaca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\fill_array">
+      <UniqueIdentifier>{9caf94fb-7ffb-4dd9-8033-1fe6f5ca5398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fill_array">
+      <UniqueIdentifier>{7ee61666-67d6-43ea-8991-56a3ad851605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\suggest_choosing_mode">
+      <UniqueIdentifier>{9a646155-4339-44e7-b9fc-6053ba88917d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\suggest_choosing_mode">
+      <UniqueIdentifier>{686a3594-0e0f-4345-9d4d-232b4f64f649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\greetings">
+      <UniqueIdentifier>{87160516-9110-432c-a3e9-b959f9213267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\greetings">
+      <UniqueIdentifier>{0d18b51d-e2d4-448a-afa2-9c38f06d0d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\read_stat">
+      <UniqueIdentifier>{2f4ea173-ff4c-4bb2-933b-46b0ed9c5ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\get_average_multiplier">
+      <UniqueIdentifier>{518c30d8-b18b-4d77-a183-384fca19ddec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\get_average_multiplier">
+      <UniqueIdentifier>{32ac3f81-7c93-48e7-805c-24f9721959a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\time\get_today_utc">
+      <UniqueIdentifier>{c847c4d5-9e0c-4c12-85e5-96ee51e3c04f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\time\get_today_utc">
+      <UniqueIdentifier>{f4a62d10-32a6-415e-9a3f-311e1a5626e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\time\is_same_day">
+      <UniqueIdentifier>{333b3fc0-fc85-4ae3-90cf-0a0d12a1ecec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\time\is_same_day">
+      <UniqueIdentifier>{9b803b18-ea06-4dee-b2cd-205c15e37b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\validation\input_validation">
+      <UniqueIdentifier>{ca7d8f70-23ed-4ad6-985a-39af38d5d6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\validation\input_validation">
+      <UniqueIdentifier>{31ef7411-9882-40fc-b389-d89ea59f92dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\notify_invalid_input">
+      <UniqueIdentifier>{268552b9-e252-430e-bf18-257c76fdb0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\notify_invalid_input">
+      <UniqueIdentifier>{dcbd87c2-ee06-4392-956d-cabc7f8d5a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\add_letters">
+      <UniqueIdentifier>{a2faf6d2-ef7d-4099-966e-bb7ffa0fe333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\add_letters">
+      <UniqueIdentifier>{17544e8d-3f4d-432e-bc8a-582e46ed20f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\masked_word">
+      <UniqueIdentifier>{02643c46-5c41-4484-a0d3-3a54c7de380f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\masked_word">
+      <UniqueIdentifier>{5ccbbadf-beb9-43d8-b70d-88576157fd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\check_matches">
+      <UniqueIdentifier>{af801743-8c0b-4ae9-86a0-dc61d47b7449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\check_matches">
+      <UniqueIdentifier>{5ec76eea-715a-40fa-8db9-8d0a526f041f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\is_guessed_word">
+      <UniqueIdentifier>{49a18653-ff98-4463-a90d-32f1c671f8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\is_guessed_word">
+      <UniqueIdentifier>{32ceddc5-ebba-4a10-a47d-a12cf293e732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\conclusion">
+      <UniqueIdentifier>{5a07eab6-da61-4c91-956f-8b0d80007da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\conclusion">
+      <UniqueIdentifier>{7030949d-cc58-40a2-b1fc-49f0cf3d8d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\parting">
+      <UniqueIdentifier>{43529575-49bc-4c60-88aa-56f2875cd0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\parting">
+      <UniqueIdentifier>{4bd90a70-30d5-4299-b13e-20f2234fc916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\first_launch">
+      <UniqueIdentifier>{3d981825-3ee0-4873-8cc3-df08f7cfa012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\first_launch">
+      <UniqueIdentifier>{81385c97-e9b6-46b2-85df-ac4d816b15ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\init_GameVariable">
+      <UniqueIdentifier>{bb383326-d17c-4c47-9c3d-42b60754c07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\init_GameVariable">
+      <UniqueIdentifier>{8c414998-034b-4deb-b2d7-bac0daf88f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file_operations\IO_DailyWord">
+      <UniqueIdentifier>{a84a3344-56e5-4cb3-b94c-015263b103d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file_operations\IO_DailyWord">
+      <UniqueIdentifier>{7ac00336-795a-47b6-b843-48d4d12b993a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file_operations\IO_number">
+      <UniqueIdentifier>{87e66fb1-b70f-4c60-a582-3581b6dae35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file_operations\IO_number">
+      <UniqueIdentifier>{30565d0a-d1f0-4c44-825b-0fb046d2fc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file_operations\IO_Stat">
+      <UniqueIdentifier>{21f5c791-76e9-42d7-a068-fbd13bda9898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file_operations\IO_Stat">
+      <UniqueIdentifier>{204364fc-f2da-4328-ab08-6d00d8dd7f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file_operations\IO_words">
+      <UniqueIdentifier>{39727fd6-38fc-475f-a7bc-47d53c49c3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file_operations\IO_words">
+      <UniqueIdentifier>{e975202d-7f43-494c-91a3-dc44a687d6df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Wordle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="validation\process_tracking\process_tracking.cpp">
+      <Filter>Source Files\validation\process_traking</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\get_random_index\get_random_index.cpp">
+      <Filter>Source Files\game_logic\get_random_index</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\get_random_word\get_random_word.cpp">
+      <Filter>Source Files\game_logic\get_random_word</Filter>
+    </ClCompile>
+    <ClCompile Include="validation\pick_mode\pick_mode.cpp">
+      <Filter>Source Files\validation\pick_mode</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\append_word\append_word.cpp">
+      <Filter>Source Files\game_logic\append_word</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\fill_array\fill_array.cpp">
+      <Filter>Source Files\game_logic\fill_array</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\suggest_choosing_mode\suggest_choosing_mode.cpp">
+      <Filter>Source Files\game_logic\suggest_choosing_mode</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\greetings\greetings.cpp">
+      <Filter>Source Files\game_logic\greetings</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\get_average_multiplier\get_average_multiplier.cpp">
+      <Filter>Source Files\game_logic\get_average_multiplier</Filter>
+    </ClCompile>
+    <ClCompile Include="time\get_today_utc\get_today_utc.cpp">
+      <Filter>Source Files\time\get_today_utc</Filter>
+    </ClCompile>
+    <ClCompile Include="time\is_same_day\is_same_day.cpp">
+      <Filter>Source Files\time\is_same_day</Filter>
+    </ClCompile>
+    <ClCompile Include="validation\input_validation\input_validation.cpp">
+      <Filter>Source Files\validation\input_validation</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\notify_invalid_input\notify_invalid_input.cpp">
+      <Filter>Source Files\game_logic\notify_invalid_input</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\add_letters\add_letters.cpp">
+      <Filter>Source Files\game_logic\add_letters</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\masked_word\masked_word.cpp">
+      <Filter>Source Files\game_logic\masked_word</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\check_matches\check_matches.cpp">
+      <Filter>Source Files\game_logic\check_matches</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\is_guessed_word\is_guessed_word.cpp">
+      <Filter>Source Files\game_logic\is_guessed_word</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\conclusion\conclusion.cpp">
+      <Filter>Source Files\game_logic\conclusion</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\parting\parting.cpp">
+      <Filter>Source Files\game_logic\parting</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\first_launch\first_launch.cpp">
+      <Filter>Source Files\game_logic\first_launch</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\init_GameVariable\init_GameVariable.cpp">
+      <Filter>Source Files\game_logic\init_GameVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="file_operations\IO_DailyWord\IO_DailyWord.cpp">
+      <Filter>Source Files\file_operations\IO_DailyWord</Filter>
+    </ClCompile>
+    <ClCompile Include="file_operations\IO_number\IO_number.cpp">
+      <Filter>Source Files\file_operations\IO_number</Filter>
+    </ClCompile>
+    <ClCompile Include="file_operations\IO_Stat\IO_Stat.cpp">
+      <Filter>Source Files\file_operations\IO_Stat</Filter>
+    </ClCompile>
+    <ClCompile Include="file_operations\IO_words\IO_words.cpp">
+      <Filter>Source Files\file_operations\IO_words</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="validation\process_tracking\process_tracking.h">
+      <Filter>Header Files\validation\process_traking</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\get_random_word\get_random_word.h">
+      <Filter>Header Files\game_logic\get_random_word</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\get_random_index\get_random_index.h">
+      <Filter>Header Files\game_logic\get_random_index</Filter>
+    </ClInclude>
+    <ClInclude Include="validation\pick_mode\pick_mode.h">
+      <Filter>Header Files\validation\pick_mode</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\append_word\append_word.h">
+      <Filter>Header Files\game_logic\append_word</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\fill_array\fill_array.h">
+      <Filter>Header Files\fill_array</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\suggest_choosing_mode\suggest_choosing_mode.h">
+      <Filter>Header Files\game_logic\suggest_choosing_mode</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\greetings\greetings.h">
+      <Filter>Header Files\game_logic\greetings</Filter>
+    </ClInclude>
+    <ClInclude Include="file_operations\read_stat\read_stat.h">
+      <Filter>Header Files\read_stat</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\get_average_multiplier\get_average_multiplier.h">
+      <Filter>Header Files\game_logic\get_average_multiplier</Filter>
+    </ClInclude>
+    <ClInclude Include="time\get_today_utc\get_today_utc.h">
+      <Filter>Header Files\time\get_today_utc</Filter>
+    </ClInclude>
+    <ClInclude Include="time\is_same_day\is_same_day.h">
+      <Filter>Header Files\time\is_same_day</Filter>
+    </ClInclude>
+    <ClInclude Include="validation\input_validation\input_validation.h">
+      <Filter>Header Files\validation\input_validation</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\notify_invalid_input\notify_invalid_input.h">
+      <Filter>Header Files\game_logic\notify_invalid_input</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\add_letters\add_letters.h">
+      <Filter>Header Files\game_logic\add_letters</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\masked_word\masked_word.h">
+      <Filter>Header Files\game_logic\masked_word</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\check_matches\check_matches.h">
+      <Filter>Header Files\game_logic\check_matches</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\is_guessed_word\is_guessed_word.h">
+      <Filter>Header Files\game_logic\is_guessed_word</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\conclusion\conclusion.h">
+      <Filter>Header Files\game_logic\conclusion</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\parting\parting.h">
+      <Filter>Header Files\game_logic\parting</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\first_launch\first_launch.h">
+      <Filter>Header Files\game_logic\first_launch</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\init_GameVariable\init_GameVariable.h">
+      <Filter>Header Files\game_logic\init_GameVariable</Filter>
+    </ClInclude>
+    <ClInclude Include="file_operations\IO_DailyWord\IO_DailyWord.h">
+      <Filter>Header Files\file_operations\IO_DailyWord</Filter>
+    </ClInclude>
+    <ClInclude Include="file_operations\IO_number\IO_number.h">
+      <Filter>Header Files\file_operations\IO_number</Filter>
+    </ClInclude>
+    <ClInclude Include="file_operations\IO_Stat\IO_Stat.h">
+      <Filter>Header Files\file_operations\IO_Stat</Filter>
+    </ClInclude>
+    <ClInclude Include="file_operations\IO_words\IO_words.h">
+      <Filter>Header Files\file_operations\IO_words</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -61,9 +367,24 @@
     <None Include="..\README.md">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\test_case.md">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\words.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\daily_word.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\random_words.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\stat.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\time.txt">
       <Filter>Resource Files\data</Filter>
     </Text>
   </ItemGroup>
