@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,17 +128,73 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="file_operations\IO_DailyWord\IO_DailyWord.cpp" />
+    <ClCompile Include="file_operations\IO_number\IO_number.cpp" />
+    <ClCompile Include="file_operations\IO_Stat\IO_Stat.cpp" />
+    <ClCompile Include="file_operations\IO_words\IO_words.cpp" />
+    <ClCompile Include="game_logic\add_letters\add_letters.cpp" />
+    <ClCompile Include="game_logic\append_word\append_word.cpp" />
+    <ClCompile Include="game_logic\check_matches\check_matches.cpp" />
+    <ClCompile Include="game_logic\conclusion\conclusion.cpp" />
+    <ClCompile Include="game_logic\fill_array\fill_array.cpp" />
+    <ClCompile Include="game_logic\first_launch\first_launch.cpp" />
+    <ClCompile Include="game_logic\get_average_multiplier\get_average_multiplier.cpp" />
+    <ClCompile Include="game_logic\get_random_index\get_random_index.cpp" />
+    <ClCompile Include="game_logic\get_random_word\get_random_word.cpp" />
+    <ClCompile Include="game_logic\greetings\greetings.cpp" />
+    <ClCompile Include="game_logic\init_GameVariable\init_GameVariable.cpp" />
+    <ClCompile Include="game_logic\is_guessed_word\is_guessed_word.cpp" />
+    <ClCompile Include="game_logic\masked_word\masked_word.cpp" />
+    <ClCompile Include="game_logic\notify_invalid_input\notify_invalid_input.cpp" />
+    <ClCompile Include="game_logic\parting\parting.cpp" />
+    <ClCompile Include="game_logic\suggest_choosing_mode\suggest_choosing_mode.cpp" />
+    <ClCompile Include="time\get_today_utc\get_today_utc.cpp" />
+    <ClCompile Include="time\is_same_day\is_same_day.cpp" />
+    <ClCompile Include="validation\input_validation\input_validation.cpp" />
+    <ClCompile Include="validation\pick_mode\pick_mode.cpp" />
+    <ClCompile Include="validation\process_tracking\process_tracking.cpp" />
     <ClCompile Include="Wordle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h" />
+    <ClInclude Include="file_operations\IO_DailyWord\IO_DailyWord.h" />
+    <ClInclude Include="file_operations\IO_number\IO_number.h" />
+    <ClInclude Include="file_operations\IO_Stat\IO_Stat.h" />
+    <ClInclude Include="file_operations\IO_words\IO_words.h" />
+    <ClInclude Include="file_operations\read_stat\read_stat.h" />
+    <ClInclude Include="game_logic\add_letters\add_letters.h" />
+    <ClInclude Include="game_logic\append_word\append_word.h" />
+    <ClInclude Include="game_logic\check_matches\check_matches.h" />
+    <ClInclude Include="game_logic\conclusion\conclusion.h" />
+    <ClInclude Include="game_logic\fill_array\fill_array.h" />
+    <ClInclude Include="game_logic\first_launch\first_launch.h" />
+    <ClInclude Include="game_logic\get_average_multiplier\get_average_multiplier.h" />
+    <ClInclude Include="game_logic\get_random_index\get_random_index.h" />
+    <ClInclude Include="game_logic\get_random_word\get_random_word.h" />
+    <ClInclude Include="game_logic\greetings\greetings.h" />
+    <ClInclude Include="game_logic\init_GameVariable\init_GameVariable.h" />
+    <ClInclude Include="game_logic\is_guessed_word\is_guessed_word.h" />
+    <ClInclude Include="game_logic\masked_word\masked_word.h" />
+    <ClInclude Include="game_logic\notify_invalid_input\notify_invalid_input.h" />
+    <ClInclude Include="game_logic\parting\parting.h" />
+    <ClInclude Include="game_logic\suggest_choosing_mode\suggest_choosing_mode.h" />
+    <ClInclude Include="time\get_today_utc\get_today_utc.h" />
+    <ClInclude Include="time\is_same_day\is_same_day.h" />
+    <ClInclude Include="validation\input_validation\input_validation.h" />
+    <ClInclude Include="validation\pick_mode\pick_mode.h" />
+    <ClInclude Include="validation\process_tracking\process_tracking.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\code_style.md" />
     <None Include="..\README.md" />
+    <None Include="..\test_case.md" />
     <None Include="..\todo.md" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="data\daily_word.txt" />
+    <Text Include="data\random_words.txt" />
+    <Text Include="data\stat.txt" />
+    <Text Include="data\time.txt" />
     <Text Include="data\words.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
