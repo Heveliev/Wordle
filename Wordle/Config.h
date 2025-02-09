@@ -16,7 +16,7 @@ public:
 		static constexpr int INIT_MIN_QUANTITY_WORDS = 10;
 		static constexpr int MULTIPLIER = 1;
 
-		static constexpr int TIME_COEFFICIENT = 24 * 60 * 60;
+		static constexpr int SECONDS_PER_DAY = 24 * 60 * 60;
 
 		static constexpr const char MASK_SYMBOL = '*';
 

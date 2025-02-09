@@ -12,32 +12,15 @@
 //# "time"
 
 //# "file"
-#include "./file_operations/IO_Stat/IO_Stat.h"
-#include "./file_operations/IO_DailyWord/IO_DailyWord.h"
-#include "./file_operations/IO_words/IO_words.h"
-
+#include "./fileoperations/fileoperations.h"
 
 //# "validation"
-#include "./validation/process_tracking/process_tracking.h"
-#include "./validation/pick_mode/pick_mode.h"
-#include "./validation/input_validation/input_validation.h"
+#include "./validation/validation.h"
 
 //# "logic"
-#include "./game_logic/init_GameVariable/init_GameVariable.h"
-#include "./game_logic/first_launch/first_launch.h"
-#include "./game_logic/greetings/greetings.h"
-#include "./game_logic/fill_array/fill_array.h"
-#include "./game_logic/suggest_choosing_mode/suggest_choosing_mode.h"
-#include "./game_logic/get_random_word/get_random_word.h"
-#include "./game_logic/add_letters/add_letters.h"
-#include "./game_logic/masked_word/masked_word.h"
-#include "./game_logic/notify_invalid_input/notify_invalid_input.h"
-#include "./game_logic/check_matches/check_matches.h"
-#include "./game_logic/is_guessed_word/is_guessed_word.h"
-#include "./game_logic/conclusion/conclusion.h"
-#include "./game_logic/parting/parting.h"
-
-
+#include "./game_logic/logic/logic.h"
+#include "./game_logic/print_info/print_info.h"
+#include "./game_logic/word_operations/word_operations.h"
 
 
 int main()
@@ -61,16 +44,7 @@ int main()
 	{
 		if (GameVariable.words.empty())
 		{
-			std::vector<std::string>* source_words = new std::vector<std::string>;
-
-			fill_array(GameVariable.words, *source_words, (path + Config::WORDS_LIST_FILE), GameVariable.words_quantity);
-
-			if(GameVariable.Statistic.today_multiplier < Config::MIN_QUANTITY_WORDS / Config::INIT_MIN_QUANTITY_WORDS) 
-				GameVariable.Statistic.today_multiplier++;
-
-			IO_Stat((path + Config::STAT_FILE), GameVariable.Statistic, GameVariable.is_first_launch, FileOperation::Output);
-
-			delete source_words;
+			init_words_array(path, GameVariable);
 		}
 
 
