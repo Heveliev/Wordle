@@ -19,17 +19,11 @@
     <Filter Include="Source Files\game_logic">
       <UniqueIdentifier>{3ba1f3f8-9f85-4d10-b974-09521f5c8d2f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\file_operations">
-      <UniqueIdentifier>{015c8c31-06f6-400e-a5d8-e7bf4584b634}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\validation">
       <UniqueIdentifier>{e1a254ec-7a05-4069-a4a5-13f88a3d1af8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\game_logic">
       <UniqueIdentifier>{96e5536a-ca02-45e5-b7e1-80ce27f2adc8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\file_operations">
-      <UniqueIdentifier>{f88cc236-5da5-4518-b743-fda70164bd08}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files\data">
       <UniqueIdentifier>{67694f02-c80c-4efb-80d3-038c655a502f}</UniqueIdentifier>
@@ -40,15 +34,93 @@
     <Filter Include="Header Files\time">
       <UniqueIdentifier>{05ec2033-9602-4182-8b60-f2b6c25ee762}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\read_stat">
+      <UniqueIdentifier>{2f4ea173-ff4c-4bb2-933b-46b0ed9c5ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fileoperations">
+      <UniqueIdentifier>{f88cc236-5da5-4518-b743-fda70164bd08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fileoperations">
+      <UniqueIdentifier>{1b836149-90fb-4f81-af62-48fa5bca5517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\logic">
+      <UniqueIdentifier>{c398b17b-b0a1-4c7e-b2fb-48ad5c0bc6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\logic">
+      <UniqueIdentifier>{5071b16c-6cd3-4cba-818b-2b0b9fd03be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\print_info">
+      <UniqueIdentifier>{ff2d16e0-13e5-4e15-a310-89776d9bf681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\print_info">
+      <UniqueIdentifier>{0c61ac03-e079-4187-90d8-be01f2a11d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\utility">
+      <UniqueIdentifier>{2e88a1a6-e407-4c3d-8a75-e844302d4c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\utility">
+      <UniqueIdentifier>{f4eb08fa-75ad-4389-a22c-1a3671f0da62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_logic\word_operations">
+      <UniqueIdentifier>{2dc0ca87-0ce3-43fa-9d9f-14a33c55d835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_logic\word_operations">
+      <UniqueIdentifier>{2401f5b1-c549-472c-9639-d8fd43a9a08c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Wordle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fileoperations\fileoperations.cpp">
+      <Filter>Source Files\fileoperations</Filter>
+    </ClCompile>
+    <ClCompile Include="validation\validation.cpp">
+      <Filter>Source Files\validation</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\logic\logic.cpp">
+      <Filter>Source Files\game_logic\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\print_info\print_info.cpp">
+      <Filter>Source Files\game_logic\print_info</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\utility\utility.cpp">
+      <Filter>Source Files\game_logic\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic\word_operations\word_operations.cpp">
+      <Filter>Source Files\game_logic\word_operations</Filter>
+    </ClCompile>
+    <ClCompile Include="time\time.cpp">
+      <Filter>Source Files\time</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_operations\read_stat\read_stat.h">
+      <Filter>Header Files\read_stat</Filter>
+    </ClInclude>
+    <ClInclude Include="fileoperations\fileoperations.h">
+      <Filter>Header Files\fileoperations</Filter>
+    </ClInclude>
+    <ClInclude Include="validation\validation.h">
+      <Filter>Header Files\validation</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\logic\logic.h">
+      <Filter>Header Files\game_logic\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\print_info\print_info.h">
+      <Filter>Header Files\game_logic\print_info</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\utility\utility.h">
+      <Filter>Header Files\game_logic\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic\word_operations\word_operations.h">
+      <Filter>Header Files\game_logic\word_operations</Filter>
+    </ClInclude>
+    <ClInclude Include="time\time.h">
+      <Filter>Header Files\time</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -61,9 +133,24 @@
     <None Include="..\README.md">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="..\test_case.md">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\words.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\daily_word.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\random_words.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\stat.txt">
+      <Filter>Resource Files\data</Filter>
+    </Text>
+    <Text Include="data\time.txt">
       <Filter>Resource Files\data</Filter>
     </Text>
   </ItemGroup>

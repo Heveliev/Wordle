@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,17 +128,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fileoperations\fileoperations.cpp" />
+    <ClCompile Include="game_logic\logic\logic.cpp" />
+    <ClCompile Include="game_logic\print_info\print_info.cpp" />
+    <ClCompile Include="game_logic\utility\utility.cpp" />
+    <ClCompile Include="game_logic\word_operations\word_operations.cpp" />
+    <ClCompile Include="time\time.cpp" />
+    <ClCompile Include="validation\validation.cpp" />
     <ClCompile Include="Wordle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h" />
+    <ClInclude Include="fileoperations\fileoperations.h" />
+    <ClInclude Include="file_operations\read_stat\read_stat.h" />
+    <ClInclude Include="game_logic\logic\logic.h" />
+    <ClInclude Include="game_logic\print_info\print_info.h" />
+    <ClInclude Include="game_logic\utility\utility.h" />
+    <ClInclude Include="game_logic\word_operations\word_operations.h" />
+    <ClInclude Include="time\time.h" />
+    <ClInclude Include="validation\validation.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\code_style.md" />
     <None Include="..\README.md" />
+    <None Include="..\test_case.md" />
     <None Include="..\todo.md" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="data\daily_word.txt" />
+    <Text Include="data\random_words.txt" />
+    <Text Include="data\stat.txt" />
+    <Text Include="data\time.txt" />
     <Text Include="data\words.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
